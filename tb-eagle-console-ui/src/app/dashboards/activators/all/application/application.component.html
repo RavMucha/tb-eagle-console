@@ -4,32 +4,12 @@
     <div class="flex-filler"></div>
     <app-icon icon="star" [stroke]="isStroke"  (click)="isStroke=!isStroke" [color]="strokeColor"></app-icon>
     <mat-menu #menu="matMenu" xPosition="before">
-      <button mat-menu-item>Settings</button>
-      <button mat-menu-item>Help</button>
+      <button mat-menu-item>Grant Access</button>
+      <button mat-menu-item>Deprecate</button>
     </mat-menu>
-    <button (click)="toggleMenu()" mat-icon-button [matMenuTriggerFor]="menu">
-      <mat-icon>more_horiz</mat-icon>
+    <button style="width: 22px; height: 22px; margin-left: 5px;" mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon style="display: block;">more_horiz</mat-icon>
     </button>
-    <!--  -->
-    <!-- <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
-      <mat-icon>more_vert</mat-icon>
-    </button> -->
-    <!-- <mat-menu  [attr.id]="matMenu">
-      <button mat-menu-item>
-        <mat-icon>dialpad</mat-icon>
-        <span>Redial</span>
-      </button>
-      <button mat-menu-item disabled>
-        <mat-icon>voicemail</mat-icon>
-        <span>Check voice mail</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>notifications_off</mat-icon>
-        <span>Disable alerts</span>
-      </button>
-    </mat-menu> -->
-
-    
   </div>
   <div class="name">
     {{ app.name }}

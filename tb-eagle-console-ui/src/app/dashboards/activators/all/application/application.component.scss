@@ -1,7 +1,7 @@
 :host {
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--grey);
+  border: 2px solid var(--grey);
   border-radius: calc(2 * var(--radius));
 
   &:hover {
@@ -14,11 +14,13 @@
 .head {
   background-color: var(--active-grey-background);
   padding: 0.5rem 0.5rem 1rem;
+  border-radius: 8px 8px 0 0;
   //z-index: -10;
 }
 
 .status {
   display: flex;
+  max-height: 30px;
 }
 
 app-icon {
