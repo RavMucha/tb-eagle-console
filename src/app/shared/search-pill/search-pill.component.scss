@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  border: 1px solid var(--grey);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  align-items: center;
+
+  &.icon {
+    padding: 0.3rem 1rem 0;
+  }
+}

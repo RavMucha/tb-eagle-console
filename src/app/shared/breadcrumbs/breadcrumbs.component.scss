@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  align-items: center;
+}
+
+.cancel-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.step {
+  border-left: 1px solid var(--grey);
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.25rem;
+
+  &:first-of-type {
+    font-weight: 800;
+  }
+}
+
+.badge {
+  margin: 0 0.5rem;
+}

@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  min-height: 100vh;
+}
+
+app-info-pane {
+  flex: 1 1 55%;
+  background-color: var(--primary-color);
+}
+
+app-login-form-pane {
+  flex: 1 1 45%;
+  background-color: var(--white);
+}

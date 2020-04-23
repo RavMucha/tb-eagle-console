@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+}
+
+.option {
+  display: flex;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0.2rem 0.5rem 0.1rem;
+  align-items: center;
+
+  &.active {
+    background-color: var(--primary-color);
+  }
+}

@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+main {
+  margin: 1rem 1.5rem;
+  .details {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: var(--whitish);
+    .mat-body-strong {
+      margin-right: 1rem;
+    }
+  }
+}
+
+header {
+  display: flex;
+  text-align: center;
+  font-family: SF Pro Display;
+  padding: {
+    top: 1.5rem;
+    left: 2rem;
+    right: 2rem;
+    bottom: 1rem;
+  }
+  background-color: var(--whitish);
+}
+
+app-breadcrumbs {
+  flex: auto;
+}
+
+.create {
+  text-decoration: none;
+}
